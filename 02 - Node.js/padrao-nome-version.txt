@@ -1,0 +1,39 @@
+EX: 2.1.0
+
+2.     1.     0
+MAJOR  MINOR  PATCH
+
+Correção de BUG? PATCH
+2.1.0 -> 2.1.1
+
+
+Recurso novo? MINOR
+2.1.0 -> 2.2.0
+
+Atualização Nova, quebra de compatibilidade? MAJOR
+2.1.0 -> 3.0.0
+
+
+
+Circunflexo no package.json
+^ sinal que pode atualizar MINOR E PATCH
+
+ex:  ^5.3.4 -> ^5.7.2 
+
+
+
+Tio no package.json
+~ sinal que pode atualizar domente o PATCH
+
+ex: ~5.3.4 -> ~5.3.7
+
+
+
+
+Listar package do node que eu instalei?
+
+    npm ls depth=0
+
+Quais pacotes estão desatualizados?
+
+    npm outdated

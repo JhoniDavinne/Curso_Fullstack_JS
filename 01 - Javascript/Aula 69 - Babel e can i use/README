@@ -1,0 +1,26 @@
+/** 
+
+npm init -y
+ inicializa o projeto node
+
+npm install --save-dev @babel/cli @babel/preset-env @babel/core
+instala o babel
+
+
+npx babel aula69.js -o bundle.js --presets @babel/preset-env
+compila o arquivo aula69.js para o bundle.js
+
+
+Observe a coverção no arquivo bundle.js
+
+
+
+em package.json
+"babel": "babel ./aula69.js -o ./bundle.js --presets @babel/preset-env -W"
+para compilar o arquivo aula69.js para o bundle.js automaticamente
+
+depois no terminal
+npm run babel
+para fica assistindo o processo de compilacao, e compilar o arquivo aula69.js para o bundle.js automaticamente, toda vez que salvo.
+
+*/

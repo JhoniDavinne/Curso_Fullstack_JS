@@ -1,0 +1,41 @@
+npm install express 
+"vai instalar a ultima versao de express =  resultado "express": "^4.21.0".  ^indica que ele pode atualizar dentro da versao 4 para qualquer versao."
+
+npm install express -E 
+"vai instalar a ultima versao de o express e setar para manter na mesma versao =  resultado "express": "4.21.0". sem ^ indica que sempre ficara nesta versao, sendo ignorado pelo npm update."
+
+"exemplo bibliotecas que sao usando apenas em desenvolvimento como webpack, pois em producao usamos apenas seus bundles.
+entao o comando seria:"
+npm install webpack --save-dev
+"fica salvo em package.json em "devDependencies":"
+
+"se quiser mudar para producao"
+
+npm install express --save-prod 
+"fica salvo em package.json em "dependencies":"
+
+
+"instalar uma versao especifica?"
+npm install express@2.1.0 -E
+
+
+"desintalar uma biblioteca"
+npm uninstall express
+npm uninstall webpack
+npm uninstall express webpack
+
+"explicao sobre versão"
+"exemplo 2.1.0"
+
+2.     1.     0
+MAJOR  MINOR  PATCH
+
+Correção de BUG? PATCH
+2.1.0 -> 2.1.1
+
+
+Recurso novo? MINOR
+2.1.0 -> 2.2.0
+
+Atualização Nova, quebra de compatibilidade? MAJOR
+2.1.0 -> 3.0.0

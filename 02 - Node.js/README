@@ -1,0 +1,6 @@
+TODA VEZ QUE FOR EXECUTAR ALGUMA DAS PASTA DO CURSO DE NODE, EXECUTE NO TERMINAL 
+
+npm i
+
+
+para instalar as bibliotecas que foram instaladas na aula, todas listadas em package.json

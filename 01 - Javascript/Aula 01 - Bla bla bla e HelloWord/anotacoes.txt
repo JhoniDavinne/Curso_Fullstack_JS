@@ -1,0 +1,5 @@
+COISAS NOVAS RELEVANTES DURANTE O CURSO.
+
+- Colocar o script dentro da tag body evitar retardar o carregamento da pagina,em comparacao da tag script na tag head,
+- CRTL + U no navegador abre o codigo html
+- FRONTEND Oque é carregado pelo navegador do cliente.
