@@ -1,0 +1,10 @@
+sudo docker run --restart always -d --name bdmariadb -p 3306:3306 \
+    -e MYSQL_ROOT_PASSWORD=D@909090 mariadb   senha usada foi D@909090
+
+
+seu servidor google esta em jhoni.davinne@gmail.com com o ip http://35.215.193.91/
+
+
+domínio godaddy davinne.dev aponta para 35.215.193.91 do google
+
+  string de conexão do mongo db CONNECTIONSTRING=mongodb+srv://jhonidavinne:3986o459@curso-node-js.ayhk9.mongodb.net/PROJETOAGENDA?retryWrites=true&w=majority&appName=CURSO-NODE-JS
