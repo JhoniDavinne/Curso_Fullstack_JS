@@ -1,6 +1,6 @@
-[submodule "03.1 - API_REST_DIST"]
-	path = 03.1 - API_REST_DIST
-	url = https://github.com/JhoniDavinne/API_REST_DIST.git
 [submodule "ProjetoAgenda"]
     path = 02 - Node.js/Projeto Agenda - Node.js - Express e MongoDB/PROJETOAGENDA
     url = https://github.com/JhoniDavinne/PROJETOAGENDA.git
+[submodule "03.1 - API_REST_DIST"]
+	path = 03.1 - API_REST_DIST
+	url = https://github.com/JhoniDavinne/API_REST_DIST.git
