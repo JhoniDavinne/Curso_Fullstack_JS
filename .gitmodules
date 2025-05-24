@@ -1,10 +1,11 @@
 [submodule "ProjetoAgenda"]
     path = 02 - Node.js/Projeto Agenda - Node.js - Express e MongoDB/PROJETOAGENDA
     url = https://github.com/JhoniDavinne/PROJETOAGENDA.git
+	branch = main
 [submodule "03.1 - API_REST_DIST"]
 	path = 03.1 - API_REST_DIST
 	url = https://github.com/JhoniDavinne/API_REST_DIST.git
 	branch = main
-[submodule "04 - React/pro"]
-	path = 04 - React/pro
-	url = https://github.com/JhoniDavinne/React_API_Rest.git
+[submodule "04.2- React Consumindo API"]
+	path = 04.2- React Consumindo API
+	url = git@github.com:JhoniDavinne/React_Consumindo_API.git
